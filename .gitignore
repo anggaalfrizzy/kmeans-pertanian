@@ -1,1 +1,8 @@
-web: gunicorn app:app
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+static/plots/*.png
+static/uploads/*
